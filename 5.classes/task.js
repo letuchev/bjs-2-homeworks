@@ -129,11 +129,6 @@ addBook(book) {
     }
 
 findBookBy(type, value) {
-    let bookResult = this.books.find(book => book[type] === value);
-    return bookResult;
-    }
-
-findBookBy(type, value) {
      let searchResult = this.books.find(book => book[type] === value);
 
     if (searchResult === undefined) {
